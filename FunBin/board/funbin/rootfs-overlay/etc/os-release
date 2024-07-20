@@ -1,0 +1,12 @@
+NAME="FunBin-OS"
+VERSION="1.0.0 (Zen Zebu)"
+ID=funbin
+ID_LIKE=buildroot
+PRETTY_NAME="FunBin-OS 1.0.0"
+VERSION_ID="1.0.0"
+HOME_URL="https://github.com/286095742/FunBin-OS"
+SUPPORT_URL="https://github.com/286095742/FunBin-OS"
+BUG_REPORT_URL="https://github.com/286095742/FunBin-OS"
+PRIVACY_POLICY_URL="https://github.com/286095742/FunBin-OS"
+VERSION_CODENAME=Zen
+UBUNTU_CODENAME=Zen

@@ -1,0 +1,5 @@
+config BR2_PACKAGE_FKGPIOD
+	bool "FunBoy 40A GPIO daemon"
+	default y
+	help
+	  The FunBin GPIO mapping utility.
