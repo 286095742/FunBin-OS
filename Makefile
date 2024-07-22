@@ -17,8 +17,9 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 #
 
-BRMAKE = buildroot/utils/brmake -C buildroot
-BR = make V=99 -C buildroot
+#BRMAKE = buildroot/utils/brmake -C buildroot
+BRMAKE = make V=s -C buildroot
+BR = make V=s -C buildroot
 
 # Strip quotes and then whitespaces
 qstrip = $(strip $(subst ",,$(1)))
