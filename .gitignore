@@ -1,2 +1,7 @@
 u-boot
 linux
+/download/
+*/output/*
+*~
+br.log
+/images/

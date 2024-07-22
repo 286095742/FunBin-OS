@@ -18,7 +18,7 @@
 #
 
 BRMAKE = buildroot/utils/brmake -C buildroot
-BR = make -C buildroot
+BR = make V=99 -C buildroot
 
 # Strip quotes and then whitespaces
 qstrip = $(strip $(subst ",,$(1)))
