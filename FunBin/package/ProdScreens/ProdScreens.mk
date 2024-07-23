@@ -34,7 +34,7 @@ endef
 
 define PRODSCREENS_INSTALL_TARGET_CMDS
 	$(INSTALL) -d -m 0755 $(TARGET_DIR)/usr/local/sbin
-	$(INSTALL) -m 0755 $(@D)/funbin_prod_screens $(TARGET_DIR)/usr/local/sbin/funbin_prod_screens
+	$(INSTALL) -m 0755 $(@D)/funkey_prod_screens $(TARGET_DIR)/usr/local/sbin/funkey_prod_screens
 	#$(INSTALL) -m 0755 $(@D)/ProdResources $(TARGET_DIR)/usr/local/sbin/ProdResources
 endef
 

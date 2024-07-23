@@ -21,7 +21,7 @@ touch ${LOCK_FILE}
 pid record $$
 
 ## Binaries
-PROD_SCREEN_BIN="/usr/local/sbin/funbin_prod_screens"
+PROD_SCREEN_BIN="/usr/local/sbin/funkey_prod_screens"
 GET_PROC_UID="/usr/local/sbin/get_sid"
 
 ## Global Vars
