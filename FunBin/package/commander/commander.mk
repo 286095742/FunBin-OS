@@ -10,7 +10,7 @@ COMMANDER_LICENSE = GPL-2.0
 
 COMMANDER_DEPENDENCIES = sdl sdl_ttf sdl_gfx
 
-COMMANDER_CONF_OPTS = -DCMAKE_BUILD_TYPE=Release -DTARGET_PLATFORM="funboy-40a" -DRES_DIR=""
+COMMANDER_CONF_OPTS = -DCMAKE_BUILD_TYPE=Release -DTARGET_PLATFORM="funkey-s" -DRES_DIR=""
 #COMMANDER_CONF_OPTS += -DWITH_SYSTEM_SDL_GFX=ON -DWITH_SYSTEM_SDL_TTF=ON
 
 define COMMANDER_INSTALL_CMDS
@@ -20,8 +20,8 @@ define COMMANDER_CREATE_OPK
 	$(INSTALL) -d -m 0755 $(TARGET_DIR)/usr/local/share/OPKs/Applications
 	cd $(@D); \
 	$(HOST_DIR)/usr/bin/mksquashfs \
-		opkg/default.funboy-40a.desktop \
-		opkg/readme.funboy-40a.txt \
+		opkg/default.funkey-s.desktop \
+		opkg/readme.funkey-s.txt \
 		opkg/commander.png \
 		res/file-image.png \
 		res/file-ipk.png \
@@ -33,7 +33,7 @@ define COMMANDER_CREATE_OPK
 		res/Fiery_Turk.ttf \
 		res/FreeSans.ttf \
 		$(TARGET_DIR)/usr/bin/commander \
-		$(TARGET_DIR)/usr/local/share/OPKs/Applications/commander-funboy-40a.opk \
+		$(TARGET_DIR)/usr/local/share/OPKs/Applications/commander-funkey-s.opk \
 		-all-root -noappend -no-exports -no-xattrs -noappend; \
 	rm -rf $(TARGET_DIR)/usr/bin/commander
 endef
